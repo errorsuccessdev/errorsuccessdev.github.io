@@ -1,0 +1,58 @@
+@font-face {
+    font-family: "neon";
+    src: url("fonts/MonaspaceNeon-Regular.woff") format('woff');
+}
+
+@font-face {
+    font-family: "neon";
+    src: url("fonts/MonaspaceNeon-SemiBold.woff") format('woff');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "neon";
+    src: url("fonts/MonaspaceNeon-SemiBoldItalic.woff") format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "neon";
+    src: url("fonts/MonaspaceNeon-Italic.woff") format('woff');
+    font-style: italic;
+}
+
+body {
+    background-color: #111111;
+    color: #ced2d7;
+    font-family: 'neon', 'Arial', sans-serif;
+}
+
+h1 span.define {
+    color: #3d96e9;
+}
+
+h1 span.macro, h2 {
+    color: #beb7ff;
+}
+
+h1 span.definition, a:link {
+    color: #b8d7a3;
+}
+
+a:visited {
+    color: #6a7b5e;
+}
+
+b, h3 {
+    color: #eff5fa;
+}
+
+p span.smaller {
+    font-size: 95%;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+}
