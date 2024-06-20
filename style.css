@@ -56,3 +56,7 @@ p span.smaller {
     max-width: 600px;
     margin: auto;
 }
+
+p {
+    line-height: 1.3
+}
